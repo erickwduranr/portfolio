@@ -5,6 +5,7 @@ import Image from "next/image";
 import Js from "./Js.png";
 import Html from "./Html.png";
 import Css from "./Css.png";
+import Ibm from "./Ibm.png";
 
 const SkillsWidget = ({ title, content, skills }) => {
   return (
@@ -73,16 +74,13 @@ const skills = [
   { name: "HTML", proficiency: 60, icon: Html },
   { name: "CSS", proficiency: 50, icon: Css },
   { name: "JavaScript", proficiency: 75, icon: Js },
+  { name: "COBOL AS400", proficiency: 50, icon: Ibm },
 ];
 
 function App() {
   return (
     <>
-      <SkillsWidget
-        title={"Skills"}
-        content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi."}
-        skills={skills}
-      />
+      <SkillsWidget title={"Skills"} content={"My skills can be summarized like this"} skills={skills} />
     </>
   );
 }

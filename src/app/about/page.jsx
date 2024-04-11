@@ -5,7 +5,7 @@ import Int_about from "./Intro";
 import Right_col from "./Contact";
 import Footer from "../../components/Footer";
 import ThemeSwitcher from "../../components/ThemeSwitcher";
-import lanapic from "./lana.jpg";
+import erick from "./ED_USA.png";
 import Image from "next/image";
 
 export const metadata = {
@@ -21,7 +21,7 @@ export default function About() {
 
         <div className="flex flex-col md:flex-row">
           <div className="p-6 md:w-1/2 md:order-last">
-            <Image src={lanapic} alt="Lana" className="mx-auto md:mx-0" />
+            <Image src={erick} alt="erick" className="mx-auto md:mx-0" />
             <Right_col />
           </div>
           <div className="md:w-1/2 p-4 md:order-first">

@@ -84,7 +84,7 @@ const SignupWidget = ({ title, content, simulateNetworkRequestTime }) => {
               disabled={busy}
               className="w-full bg-black text-white rounded-md py-2 px-4 dark:shadow-lg dark:border dark:bg-gray-700 dark:hover:bg-gray-800 dark:hover:font-semibold hover:bg-gray-700 hover:font-semibold"
             >
-              {busy ? "Joining..." : "Join"}
+              {busy ? "Joining..." : "Send"}
             </button>
           </div>
         </>
@@ -105,8 +105,8 @@ function App() {
   return (
     <>
       <SignupWidget
-        title={"Stay up to date"}
-        content={"Get notified when I publish something new, and unsubscribe at any time."}
+        title={"Contact me!"}
+        content={"If you are interested in my services or need an alliance, send me an email"}
       />
     </>
   );

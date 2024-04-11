@@ -4,25 +4,23 @@ import PropTypes from "prop-types";
 const ArticleCard = () => {
   const articles = [
     {
-      date: "2022-01-01",
-      title: "React Hooks: Understanding useState and useEffect",
-      content:
-        "Dive deep into two fundamental React hooks, useState and useEffect, with this article. Learn how to manage state and handle side effects in your React components using these hooks. The article also covers fetching data from APIs and handling asynchronous operations.",
-      link: "https://www.robinwieruch.de/react-hooks-fetch-data",
+      date: "January 2022 to the present",
+      title: "International Student of Software Engineering AS • Ensign College ",
+      content: "International student in the process of updating knowledge in Java, JavaScript and Agile Methodology.",
+      link: "https://ensign.smartcatalogiq.com/en/2023-2024/academic-catalog/academic-programs/associate-of-science/",
     },
     {
-      date: "2022-01-15",
-      title: "React Testing Library: A Complete Guide",
-      content:
-        "Learn how to test your React components with React Testing Library. This article covers the fundamentals of testing React components, including rendering components, interacting with them, and making assertions. You will also learn how to test asynchronous operations and handle edge cases.",
-      link: "https://www.robinwieruch.de/react-testing-library",
+      date: "2015-2019",
+      title: "Senior Data Analyst and Management Support [Itaú Bank Chile – Data Analytics]",
+      content: "●	GMI Application Testing & support for streamlining Banking/Backoffice Settlements. ",
+      link: "https://www.linkedin.com/in/erickwduranr/",
     },
     {
-      date: "2022-02-01",
-      title: "React Router: A Complete Guide",
+      date: "2007-2013",
+      title: "Santander Bank Chile  Senior Risk Systems Analyst (IT) ",
       content:
-        "Master React Router with this comprehensive guide. Learn how to set up routing in your React applications, including nested routes, route parameters, and programmatic navigation. The article also covers authentication and authorization, as well as protecting routes in your application.",
-      link: "https://www.robinwieruch.de/react-router",
+        "●	As member of a development team, I contributed to the validation and systemic implementation of all Scoring Models for all customer segments. I was responsible for an entire customer segment – young professionals. Manager of survey, analysis, and implementation (development) of new FICO CDA - OMDM tool, replacing StrategyWare. Experience as an analyst-programmer of credit policies and predictive models in FICO StrategyWare and CDA tools.",
+        link: "https://www.linkedin.com/in/erickwduranr/",
     },
   ];
 
