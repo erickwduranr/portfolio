@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export default function RightSide() {
   return (
 <>
@@ -56,7 +55,7 @@ export default function RightSide() {
                 className="fill-current"
               />
             </svg>
-            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/erickwduranr/" target="_blank" rel="noreferrer">
               Follow me on Linkedin
             </a>
           </div>
@@ -80,10 +79,11 @@ export default function RightSide() {
             className="stroke-current"
           />
         </svg>
-        <a href="mailto:your_email@example.com">jane@gmail.com</a>
+        <a href="mailto:your_email@example.com">erickwduranr@gmail.com</a>
       </div>
 
       </>
 
   );
 }
+

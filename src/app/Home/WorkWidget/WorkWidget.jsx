@@ -2,10 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import Image from "next/image";
 
-import Microsoft from "./Microsoft.png";
-import Spotify from "./Spotify.png";
-import Slack from "./Slack.png";
-import Audible from "./Audible.png";
+import Ensign from "./Ensign.png";
+import Itau from "./Itau.png";
+import Santander from "./Santander.png";
+import Corpbanca from "./Corpbanca.png";
 
 const WorkWidget = ({ title, content, experiences }) => {
   return (
@@ -83,35 +83,35 @@ const App = () => {
       <div className="max-w-screen-md">
         <WorkWidget
           title={"Work"}
-          content={"loren vrjngsllsnrk"}
+          content={"Companies:"}
           experiences={[
             {
-              logo: Slack,
-              organization: "Slack",
-              jobTitle: "SOFTWARE ENGINEER",
-              startYear: 2016,
-              endYear: null,
+              logo: Ensign,
+              organization: "Ensign College",
+              jobTitle: "Student SOFTWARE ENGINEER",
+              startYear: 2022,
+              endYear: 2024,
             },
             {
-              logo: Spotify,
-              organization: "Spotify",
-              jobTitle: "SOFTWARE ENGINEER",
-              startYear: 2014,
-              endYear: 2015,
+              logo: Itau,
+              organization: "Itau Bank",
+              jobTitle: "Data Analyst",
+              startYear: 2015,
+              endYear: 2019,
             },
             {
-              logo: Microsoft,
-              organization: "Microsoft",
-              jobTitle: "SOFTWARE ENGINEER",
-              startYear: 2012,
+              logo: Santander,
+              organization: "Santander Bank",
+              jobTitle: "Senior Risk Systems Analyst",
+              startYear: 2007,
               endYear: 2013,
             },
             {
-              logo: Audible,
-              organization: "Audible",
-              jobTitle: "SOFTWARE ENGINEER",
-              startYear: 2010,
-              endYear: 2011,
+              logo: Corpbanca,
+              organization: "Corpbanca",
+              jobTitle: "Developer Cobol",
+              startYear: 1997,
+              endYear: 2007,
             },
           ]}
         />

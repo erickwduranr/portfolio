@@ -20,7 +20,7 @@ const ArticleCard = () => {
       title: "Santander Bank Chile  Senior Risk Systems Analyst (IT) ",
       content:
         "●	As member of a development team, I contributed to the validation and systemic implementation of all Scoring Models for all customer segments. I was responsible for an entire customer segment – young professionals. Manager of survey, analysis, and implementation (development) of new FICO CDA - OMDM tool, replacing StrategyWare. Experience as an analyst-programmer of credit policies and predictive models in FICO StrategyWare and CDA tools.",
-        link: "https://www.linkedin.com/in/erickwduranr/",
+      link: "https://www.linkedin.com/in/erickwduranr/",
     },
   ];
 
