@@ -11,23 +11,26 @@ export default function IntroProjects() {
   return (
     <>
       <section>
-        <div className="text-6xl font-black  text-left mx-4 md:mx-0">
-          Things I’ve made trying to put my dent in the universe.
-        </div>
+        <div className="text-6xl font-black  text-left mx-4 md:mx-0">My mark on this world...</div>
         <div className="text-xlg t text-left py-7 mx-4 md:mx-0">
-          Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit <br /> amet
-          consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur <br />
-          adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit <br />
-          Ut et massa mi..
+          With over 20 years of professional experience in the IT field, I have competencies in application development,
+          developed a variety of <br />
+          software and applications quality assurance, data analysis and engineering solutions, my specialty being the
+          IBM AS400 machine with <br />
+          all its utilities. I am achievement-focused and an open-minded leader who thrives searching for innovative
+          solutions in challenging social and <br />
+          technical environments. I am currently exploring career opportunities in areas related to programming,
+          mainframe administration, quality assurance, or data analysis. <br />
         </div>
       </section>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-4 md:mx-0">
         <div class="col-span-1">
           <Image src={logo} class="mx-auto" alt="Left-aligned image" />
           <div class="py-7">
-            <div class="text-lg font-semibold ">Company </div>
+            <div class="text-lg font-semibold ">Itau Bank </div>
             <div class="text-lg  ">
-              Creating technology to empower civilians to explore space on their own terms.<br></br>
+              Participation as coordinator in the migration and technological merger between Corpbanca Bank and Itau
+              Bank.<br></br>
               <a href="https://company.com" class="flex items-center">
                 <svg
                   width="20"
@@ -54,9 +57,9 @@ export default function IntroProjects() {
         <div class="col-span-1">
           <Image src={logo} class="mx-auto" alt="Center-aligned image" />
           <div class="py-7">
-            <div class="text-lg font-semibold ">Company </div>
+            <div class="text-lg font-semibold ">Itau Bank </div>
             <div class="text-lg ">
-              Creating technology to empower civilians to explore space on their own terms.<br></br>
+              Project Manager creating a new area in the bank called Data Governance.<br></br>
               <a href="https://company.com" class="flex items-center">
                 <svg
                   width="20"
@@ -83,9 +86,11 @@ export default function IntroProjects() {
         <div class="col-span-1">
           <Image src={logo} class="mx-auto" alt="Right-aligned image" />
           <div class="py-7">
-            <div class="text-lg font-semibold ">Company </div>
+            <div class="text-lg font-semibold ">Santander Bank </div>
             <div class="text-lg ">
-              Creating technology to empower civilians to explore space on their own terms.<br></br>
+              As member of a development team, I contributed to the validation and systemic implementation of all
+              Scoring Models for all customer segments. I was responsible for an entire customer segment – young
+              professionals.<br></br>
               <a href="https://company.com" class="flex items-center">
                 <svg
                   width="20"
@@ -112,9 +117,11 @@ export default function IntroProjects() {
         <div class="col-span-1">
           <Image src={logo} class="mx-auto" alt="Left-aligned image" />
           <div class="py-7">
-            <div class="text-lg font-semibold ">Company </div>
+            <div class="text-lg font-semibold ">Santander Bank </div>
             <div class="text-lg ">
-              Creating technology to empower civilians to explore space on their own terms.<br></br>
+              Manager of survey, analysis, and implementation (development) of new FICO CDA - OMDM tool, replacing
+              StrategyWare. Experience as an analyst-programmer of credit policies and predictive models in FICO
+              StrategyWare and CDA tools.<br></br>
               <a href="https://company.com" class="flex items-center">
                 <svg
                   width="20"
@@ -141,9 +148,12 @@ export default function IntroProjects() {
         <div class="col-span-1">
           <Image src={logo} class="mx-auto" alt="Center-aligned image" />
           <div class="py-7">
-            <div class="text-lg font-semibold ">Company </div>
+            <div class="text-lg font-semibold ">Corpbanca Bank </div>
             <div class="text-lg ">
-              Creating technology to empower civilians to explore space on their own terms.<br></br>
+              ● Extensive knowledge, mastery and experience in COBOL400 and all AS400 tools (CLP, DFU, OS400, SQL400).
+              Interactive (panels) and batch programming. ● Extensive knowledge and management of the OS400 operating
+              system, developing and coordinating solutions to make nightly batch processes more efficient.
+              <br></br>
               <a href="https://company.com" class="flex items-center">
                 <svg
                   width="20"
@@ -170,9 +180,11 @@ export default function IntroProjects() {
         <div class="col-span-1">
           <Image src={logo} class="mx-auto" alt="Right-aligned image" />
           <div class="py-7">
-            <div class="text-lg font-semibold ">Company </div>
+            <div class="text-lg font-semibold ">Corpbanca Bank </div>
             <div class="text-lg ">
-              Creating technology to empower civilians to explore space on their own terms.<br></br>
+              ● Maintained and developed “IBS” SYSTEM, DATAPRO banking software (RPG-ILE). ● Worked on StrategyWare
+              project for credit policies. ● Programmer and tester on project Year 2000 (Y2K).
+              <br></br>
               <a href="https://company.com" class="flex items-center">
                 <svg
                   width="20"

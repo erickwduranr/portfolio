@@ -88,7 +88,7 @@ const App = () => {
             {
               logo: Ensign,
               organization: "Ensign College",
-              jobTitle: "Student SOFTWARE ENGINEER",
+              jobTitle: "Student Software Engineering",
               startYear: 2022,
               endYear: 2024,
             },
@@ -108,7 +108,7 @@ const App = () => {
             },
             {
               logo: Corpbanca,
-              organization: "Corpbanca",
+              organization: "Corpbanca Bank",
               jobTitle: "Developer Cobol",
               startYear: 1997,
               endYear: 2007,

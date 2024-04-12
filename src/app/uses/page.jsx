@@ -1,8 +1,8 @@
-import React from 'react';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
-import UsesTable from './UsesTable';
-import ThemeSwitcher from '../../components/ThemeSwitcher'; // Import the ThemeSwitcher component
+import React from "react";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import UsesTable from "./UsesTable";
+import ThemeSwitcher from "../../components/ThemeSwitcher"; // Import the ThemeSwitcher component
 
 const Uses = () => {
   return (
@@ -10,9 +10,13 @@ const Uses = () => {
       <Header title="My Uses" />
       <main className="max-w-screen-lg py-8 md:py-12 px-4 md:px-0 mx-auto">
         <div className="container mx-auto px-4 py-8">
-          <h1 className="text-2xl md:text-4xl text-center my-4">Software I use, gadgets I love, and other things I recommend.</h1>
+          <h1 className="text-2xl md:text-4xl text-center my-4">
+            Software that I use, the most useful and those in which I am an expert
+          </h1>
           <p className="text-base md:text-lg text-left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti modi veritatis quas molestiae assumenda. Rem ipsam aspernatur numquam nisi cupiditate blanditiis harum veniam necessitatibus modi, minus dolores at recusandae.
+          We all have applications that we know,
+          others that we may not like very much but are really useful and
+          others that I am a machine learning myself.
           </p>
           <div className="overflow-x-auto">
             <UsesTable className="w-full" />
