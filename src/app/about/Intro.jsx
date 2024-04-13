@@ -32,9 +32,9 @@ export default function IntroAbout() {
       </p>
 
       <p className="w-full h-42 text-base p-4">
-        Finally, as a fan fact I have great knowledge on an old machine called IBM's AS400 and I am an expert and
-        romantic Cobol 400 programmer. I offer my services in these fields of technology, and I enjoy having an open
-        mind learning and teachings!
+        Finally, as a fan fact I have great knowledge on an old machine called IBM AS400 and I am an expert and romantic
+        Cobol 400 programmer. I offer my services in these fields of technology, and I enjoy having an open mind
+        learning and teachings!
       </p>
     </div>
   );
