@@ -1,5 +1,4 @@
 import React from "react";
-/* test */
 export default function RightSide() {
   return (
     <>
