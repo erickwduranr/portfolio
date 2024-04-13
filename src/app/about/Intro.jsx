@@ -10,11 +10,11 @@ export default function IntroAbout() {
       <div className="hidden w-full h-112 bg-white bg-opacity-90 rounded-full"></div>
 
       <h1 className="w-full h-30 text-4xl tracking-tight font-bold ">
-        Hello! I'm Erick and I want to be part of the world of technology in this country!
+        Hello! I am Erick and I want to be part of the world of technology in this country!
       </h1>
 
       <p className="w-full h-42 text-base p-4 ">
-        Hello! I'm Erick and I would like to tell you a little about myself. Personally, I am married and I have
+        Hello! I am Erick and I would like to tell you a little about myself. Personally, I am married and I have
         15-year-old twins, Sofia and Sebastian. My wife is great and we have lived in the United States for 5 years. I
         have worked successfully all my life in technology in my country of origin, Chile, and I want to continue my
         professional and personal history here in this country.
